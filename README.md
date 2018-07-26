@@ -1,5 +1,7 @@
 This is a simple easy-to-configure-and-use resume, made with [W3.CSS resume example](https://www.w3schools.com/w3css/tryw3css_templates_cv.htm)
 
+You can see a example here: http://mariojfjr.com/
+
 Special thanks to [Paulo](https://github.com/phfoxer) who helped me with github.
 
 ## Install
