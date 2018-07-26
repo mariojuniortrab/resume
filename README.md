@@ -1,4 +1,17 @@
 This is a simple easy-to-configure-and-use resume, made with [W3.CSS resume example](https://www.w3schools.com/w3css/tryw3css_templates_cv.htm)
+
+Special thanks to [Paulo](https://github.com/phfoxer) who helped me with github.
+
+## Install
+
+
+```sh
+git clone https://github.com/mariojuniortrab/resume.git resume
+cd resume
+yarn install
+yarn start
+```
+
 ## Created with create-react-app
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
