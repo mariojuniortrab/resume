@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 import TwoThirdColumn from './components/TwoThirdColumn';
 import Experience from './components/Experience';
 import Education from './components/Education';
-import data from './data';
+import config from './config';
 
 class App extends Component {
   render() {
@@ -16,14 +16,14 @@ class App extends Component {
       <div>
         <Container>
           <ThirdColum>
-            <Profile {...data.app.profile}/>
+            <Profile {...config.app.profile}/>
           </ThirdColum>
           <TwoThirdColumn>
-            <Experience {...data.app.experience}/>
-            <Education {...data.app.education}/>
+            <Experience {...config.app.experience}/>
+            <Education {...config.app.education}/>
           </TwoThirdColumn>
         </Container>
-        <Footer {...data.app.footer}/>
+        <Footer {...config.app.footer}/>
       </div>
     );
   }
