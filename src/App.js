@@ -11,13 +11,15 @@ import Education from './components/Education';
 import config from './config';
 import configUS from './configUS';
 import FloatButton from './components/FloatButton';
+import Portfolio from './components/Portfolio';
+import About from './components/About';
 
 class App extends Component {
   constructor(){
     super();
     this.state = {
       config : config,
-      language : 'PT'
+      language : 'EN'
     }
 
     this.handleClick = this.handleClick.bind(this);
@@ -41,8 +43,10 @@ class App extends Component {
             <Profile {...this.state.config.app.profile}/>
           </ThirdColum>
           <TwoThirdColumn>
+            <About {...this.state.config.app.about}/> 
             <Experience {...this.state.config.app.experience}/>
             <Education {...this.state.config.app.education}/>
+            <Portfolio {...this.state.config.app.experience}/>
           </TwoThirdColumn>
         </Container>
         <Footer {...this.state.config.app.footer}/>

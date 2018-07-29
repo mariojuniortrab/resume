@@ -8,7 +8,7 @@ import Languages from './Languages';
 export default ({profileImage, profileData, skills, languages}) => {
 
   return (
-    <div className="w3-white w3-text-grey w3-card-4" >
+    <div className="w3-white w3-text-grey w3-card-4  w3-margin-bottom" >
         <ProfileImage {...profileImage}/>
         <CapacitiesBlock>
             <ProfileData {...profileData}/>

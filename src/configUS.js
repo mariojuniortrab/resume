@@ -7,11 +7,12 @@ export default {
             profileImage:{
                 name:'Mário Júnior',
                 profileTextColor: 'white',
-                picturePath:require("./images/profile.jpg"),
+                picturePath:require("./images/profile2.jpg"),
             },
             profileData:{
                 color: primaryColor,
                 profession:'Web Developer',
+                born:'1990-11-11 - Brazil',
                 residence:'Rio de Janeiro - Brazil', 
                 email: 'mariojuniortrab@gmail.com',
                 tel: '+55 71 99196-0885',
@@ -39,6 +40,11 @@ export default {
                 ]
             },
         },
+        about:{
+            title:"About me",
+            color: primaryColor,
+            text: "I am a system analyst with 10 years of experience. I have spent the most part of my professional life developing PHP systems. I have led projects in the educational area, which are now serving some Brazilians towns. I'm comfortable with some agile methodologies such as SCRUM and KANBAN.",
+        },
         experience:{
             title: 'work experience ',
             color:primaryColor,
@@ -61,7 +67,7 @@ export default {
 
                 {color:secondaryColor, ocupation:'Junior programmer', 
                 company:'AAbreu Beneficiamentos', begin:'Jun 2019', end:'Jun 2010',
-                description:'Manutenção do Sistema AAbreu em VB 6.0 e banco de dados Oracle e manutenção da intranet e do portal, ambos em ASP.', current:false, currentText:'Atualmente'},
+                description:'Maintenance of AAbreu System in VB 6.0 and Oracle database and intranet and portal, both in ASP.', current:false, currentText:'Atualmente'},
             ],
         },
         education:{

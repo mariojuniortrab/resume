@@ -7,7 +7,7 @@ export default {
             profileImage:{
                 name:'Mário Júnior',
                 profileTextColor: 'white',
-                picturePath:require("./images/profile.jpg"),
+                picturePath:require("./images/profile2.jpg"),
             },
             profileData:{
                 color: primaryColor,
@@ -85,8 +85,13 @@ export default {
                 description:'',},
             ],
         },
-        footer:{
+        about:{
+            title:"Apresentação",
             color: primaryColor,
+            text: "Sou analista de sistemas com 10 anos de experiência. Passei boa parte da minha vida profissional desenvolvendo sistemas em PHP. Liderei projetos na área de educação, que hoje estão servindo alguns municípios do interior da Bahia. Possuo experiência em metodologias ágeis (SCRUM, KANBAN, XP...).",
+        },
+        footer:{
+            color: primaryColor, 
             social: [
                 {icon:'fa-facebook-official', url:'https://www.facebook.com/mariojfjr'},
                 {icon:'fa-instagram', url:'https://www.instagram.com/mariojfjr'},
