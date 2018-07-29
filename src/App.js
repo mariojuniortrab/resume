@@ -19,7 +19,7 @@ class App extends Component {
     super();
     this.state = {
       config : config,
-      language : 'EN'
+      language : 'PT'
     }
 
     this.handleClick = this.handleClick.bind(this);
@@ -46,7 +46,7 @@ class App extends Component {
             <About {...this.state.config.app.about}/> 
             <Experience {...this.state.config.app.experience}/>
             <Education {...this.state.config.app.education}/>
-            <Portfolio {...this.state.config.app.experience}/>
+            <Portfolio {...this.state.config.app.portfolio}/>
           </TwoThirdColumn>
         </Container>
         <Footer {...this.state.config.app.footer}/>

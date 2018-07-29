@@ -1,4 +1,4 @@
-let primaryColor= 'red';
+let primaryColor= 'deep-orange';
 let secondaryColor = 'pink';
 
 export default {
@@ -7,7 +7,7 @@ export default {
             profileImage:{
                 name:'Mário Júnior',
                 profileTextColor: 'white',
-                picturePath:require("./images/profile2.jpg"),
+                picturePath:require("./images/avatar.png"),
             },
             profileData:{
                 color: primaryColor,
@@ -89,6 +89,14 @@ export default {
                 {color:secondaryColor, name:'Computer Technician', 
                 institution:'Escola Técnica Pandiá Calógeras - Volta Redonda - RJ - Brazil', begin:'Jan 2006', end:'Dez 2008',
                 description:'',},
+            ],
+        },
+        portfolio:{
+            title: 'Portfolio',
+            color:primaryColor,
+            projects:[
+                {color:secondaryColor, picturePath:require("./images/portfolio1.jpg"), 
+                url:'https://github.com/mariojuniortrab/resume', title:'Easy to configure resume', text:"A resume made with react and W3.css"},
             ],
         },
         footer:{

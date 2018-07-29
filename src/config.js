@@ -7,11 +7,12 @@ export default {
             profileImage:{
                 name:'Mário Júnior',
                 profileTextColor: 'white',
-                picturePath:require("./images/profile2.jpg"),
+                picturePath:require("./images/avatar.png"),
             },
             profileData:{
                 color: primaryColor,
                 profession:'Desenvolvedor Web',
+                born:'11/11/1990 - Brasil',
                 residence:'Volta Redonda - RJ - Brasil', 
                 email: 'mariojuniortrab@gmail.com',
                 tel: '(71) 99196-0885 - Tim',
@@ -38,6 +39,11 @@ export default {
                     {color:primaryColor, title:'Espanhol', value:'30'},
                 ]
             },
+        },
+        about:{
+            title:"Apresentação",
+            color: primaryColor,
+            text: "Sou analista de sistemas com 10 anos de experiência. Passei boa parte da minha vida profissional desenvolvendo sistemas em PHP. Liderei projetos na área de educação, que hoje estão servindo alguns municípios do interior da Bahia. Possuo experiência em metodologias ágeis (SCRUM, KANBAN, XP...).",
         },
         experience:{
             title: 'Experiência',
@@ -85,10 +91,13 @@ export default {
                 description:'',},
             ],
         },
-        about:{
-            title:"Apresentação",
-            color: primaryColor,
-            text: "Sou analista de sistemas com 10 anos de experiência. Passei boa parte da minha vida profissional desenvolvendo sistemas em PHP. Liderei projetos na área de educação, que hoje estão servindo alguns municípios do interior da Bahia. Possuo experiência em metodologias ágeis (SCRUM, KANBAN, XP...).",
+        portfolio:{
+            title: 'Portfolio',
+            color:primaryColor,
+            projects:[
+                {color:secondaryColor, picturePath:require("./images/portfolio1.jpg"), 
+                url:'https://github.com/mariojuniortrab/resume', title:'Easy to configure resume', text:"A resume made with react and W3.css"},
+            ],
         },
         footer:{
             color: primaryColor, 
